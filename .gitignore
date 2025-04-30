@@ -1,0 +1,26 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build output
+out/
+dist/
+release/
+
+# Electron Forge packaging
+*.asar
+*.dmg
+*.exe
+*.zip
+
+# Environment files
+.env
+.env.local

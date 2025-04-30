@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Pangolin';
+    src: url('./fonts/Pangolin-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Jua';
+    src: url('./fonts/Jua-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'Pangolin', 'Lucida Grande';
+    background-color:#FB8FA9;
+    
+}
+h1{
+    font-family: 'Pangolin', 'Lucida Grande';
+    color: #F8D3DC;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+p{
+    font-family: 'Pangolin', 'Lucida Grande';
+    color: #FF537C;
+    margin: 0;
+  padding: 0;
+  flex: 0 1 auto;
+  text-align: center; 
+  align-self: flex-start;
+  font-size: 55px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#credit{
+    position: fixed; 
+    bottom: 10px;
+    right: 10px;
+    width: 202px;
+height: 18px;
+flex-shrink: 0;
+color: #FFE1D5;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: right; 
+    z-index: 10; 
+}
+#rect {
+    background: #FFE1D5;
+    width: 80vw;
+    height: 70vh;
+    flex-shrink: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  button{
+    font-family: 'Jua', 'Lucida Grande';
+    border: 5px solid #FB8FA9;
+    background: #F8D3DC;
+    font-size:2em;
+color: #FB8FA9;
+width: 200px; 
+height: 80px; 
+flex-shrink: 0; 
+margin: 10px auto; 
+display: block;
+text-align: center; 
+cursor: pointer; 
+border-radius: 8px;
+transition: background-color 0.3s ease; 
+  }
+  button:hover {
+    background: #FB8FA9; 
+    color: white;
+}
+#countdown{
+    font-size: 3em; /* Increase the size of the countdown text */
+  color: #FB8FA9; /* Optional: Change the color */
+  font-weight: bold; /* Optional: Make the text bold */
+  text-align: center; /* Center the text */
+  margin-top: 50px;
+}
+.timer-item {
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+  }
+  
+  .timer-icon {
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+  }

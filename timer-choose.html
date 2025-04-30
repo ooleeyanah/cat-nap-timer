@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' file:; script-src 'self'; style-src 'self' 'unsafe-inline';">
+
+  <title>Choose Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Choose your nap!</h1>
+  <div id="rect">
+    
+    <div class="timer-item">
+        <img src="images/cat10.png" alt="10 seconds" class="timer-icon">
+        <button data-time="10" class="timer-btn">10 seconds</button>
+    </div>
+    
+    <div class="timer-item">
+        <img src="images/cat30.png" alt="30 seconds" class="timer-icon">
+        <button data-time="30" class="timer-btn">30 seconds</button>
+    </div>
+    
+    <div class="timer-item">
+        <img src="images/cat60.png" alt="60 seconds" class="timer-icon">
+        <button data-time="60" class="timer-btn">60 seconds</button>
+    </div>
+  </div>
+  
+  <script src="choose-timer.js"></script>
+</body>
+</html>
