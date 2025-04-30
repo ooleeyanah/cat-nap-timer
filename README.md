@@ -1,2 +1,2 @@
-# timer
-an attempt at making a timer desktop app with electron js
+# Cat Nap Timer
+A cute cat-themed timer desktop app made with Electron JS.
