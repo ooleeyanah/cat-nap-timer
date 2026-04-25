@@ -1,1 +1,2 @@
-81dbab0fe74fd6b3536f296684a56366e7cbffcddd0041f12b692d1049ef096d  out/make//Cat Nap Timer-1.0.3-x64.dmg
+887dab7eb5cd2af92e28b72953e703877ea44d879ddb1290c713e0c71e8aed82  out/make/Cat Nap Timer-1.0.3-x64.dmg
+64fe18d302e3178f705f38daec26aeaa3899c6e50ff6b0b1476d9de4f1e0d3a2  out/make/zip/darwin/x64/Cat Nap Timer-darwin-x64-1.0.3.zip
