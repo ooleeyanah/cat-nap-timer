@@ -4,7 +4,7 @@ const { FuseV1Options, FuseVersion } = require('@electron/fuses');
 module.exports = {
   packagerConfig: {
     asar: true,
-    icon: 'images/caticon', 
+    icon: 'images/caticon',
     name: 'Cat Nap Timer',
   },
   rebuildConfig: {},
@@ -27,31 +27,31 @@ module.exports = {
     },
     {
       name: '@electron-forge/maker-dmg',
-      config: {
-        background: './images/dmgbg.png', 
+      config: (arch) => ({
+        background: './images/dmgbg.png',
         format: 'ULFO',
-        icon: './images/caticon.icns', 
+        icon: './images/caticon.icns',
         overwrite: true,
         debug: false,
         contents: [
           {
-            x: 150, 
-            y: 170, 
+            x: 150,
+            y: 170,
             type: 'file',
-            path: '', 
+            path: `${process.cwd()}/out/Cat Nap Timer-darwin-${arch}/Cat Nap Timer.app`,
           },
           {
-            x: 390, 
+            x: 390,
             y: 170,
             type: 'link',
-            path: '/Applications', 
+            path: '/Applications',
           },
         ],
         window: {
           width: 540,
           height: 380,
         },
-      },
+      }),
     },
   ],
   plugins: [
